@@ -1,5 +1,18 @@
 {
     "header": {
-        "hello-world": "Salve mondo"
+        "hello_world": "Salve mondo",
+        "my_web_page": "La mia pagina web",
+        "languages": "lingue",
+        "link_home": "Pagina Iniciale",
+        "link_info": "Pagina Informazioni"
+    },
+    "home": {
+        "hello_world": "Salve mondo",
+        "title": "Pagina iniziale",
+        "link_info_page": "Vai a 'Pagina informazioni'"
+    },
+    "info": {
+        "title": "Pagina Informazioni",
+        "link_info_page": "Vai a 'Pagina iniziale'"
     }
 }

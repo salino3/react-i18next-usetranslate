@@ -1,5 +1,17 @@
 {
     "header": {
-        "hello-world": "Hello world"
+        "my_web_page": "My web page",
+        "languages": "languages",
+        "link_home": "Home Page",
+        "link_info": "Informations Page"
+    },
+    "home": {
+        "hello_world": "Hello world",
+        "title": "Home Page",
+        "link_info_page": "Go to 'Informations page'"
+    },
+    "info": {
+        "title": "Information page",
+        "link_info_page": "Go to 'Home page'"
     }
 }
