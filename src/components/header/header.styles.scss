@@ -1,54 +1,64 @@
 header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border: solid 2px;
+  padding-top: 12px;
+
+  & > * {
+    width: 100%;
+  }
+
+  h2 {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    border: solid 2px;
-    padding-top: 12px;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .boxLanguages {
+  .boxLanguages {
+    width: min-content;
+    padding: 0px 12px;
 
-        width: min-content;
-        padding: 0px 12px;
-
-        h3 {
-            padding: 0px;
-            margin: 0px;
-        }
-
-        .listLanguages{
-            display: flex;
-            flex-direction: row;
-            gap: 48px;
-
-            button {
-                cursor: pointer;
-            }
-        }
+    h3 {
+      padding: 0px;
+      margin: 0px;
     }
 
-    .boxNavegation {
+    .listLanguages {
+      display: flex;
+      flex-direction: row;
+      gap: 48px;
 
-                align-self: flex-end;
-
-        .listNavegation {
-            display: flex;
-            flex-direction: row;
-            gap: 64px;
-            border-bottom: solid purple;
-            padding: 0px 10px;
-            width: min-content;
-            white-space: nowrap;
-
-            li {
-                padding-bottom: 2px;
-            }
-        }
+      button {
+        cursor: pointer;
+      }
     }
+  }
 
+  .boxNavegation {
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+    align-items: center;
+
+    .listNavegation {
+      display: flex;
+      flex-direction: row;
+      gap: 64px;
+      border-bottom: solid purple;
+      padding: 0px 10px;
+      width: min-content;
+      white-space: nowrap;
+
+      li {
+        padding-bottom: 2px;
+      }
+    }
+  }
 }
 
-ul, li { 
-    margin-left: 0; 
-    padding-left: 0; 
-    list-style-type: none;
+ul, li {
+  margin-left: 0;
+  padding-left: 0;
+  list-style-type: none;
 }
