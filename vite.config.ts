@@ -4,7 +4,7 @@ import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/api-crud-react/",
+  base: "/react-i18next-usetranslate/",
   plugins: [react()],
   resolve: {
     extensions: [".js", ".ts", ".tsx", ".vue", ".json"],

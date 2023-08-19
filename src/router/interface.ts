@@ -4,6 +4,6 @@ interface Routes {
 };
 
 export const SwitchRoutes: Routes = {
-    root: '/',
-    info_page: '/info'
+  root: "/react-i18next-usetranslate/",
+  info_page: "/react-i18next-usetranslate/info",
 };
