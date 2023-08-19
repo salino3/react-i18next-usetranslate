@@ -9,7 +9,7 @@ export const Header: React.FC = () => {
 
   const changeLanguage = (language: string) => {
     i18n.changeLanguage(language);
-    sessionStorage.setItem("selectedLanguage", language); // Guarda el lenguaje en el sessionStorage
+    sessionStorage.setItem("selectedLanguage", language);
   };
 
   return (

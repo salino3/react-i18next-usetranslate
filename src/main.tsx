@@ -7,7 +7,7 @@ import i18next from "i18next";
 import global_es from "./translations/es/global.json";
 import global_en from "./translations/en/global.json";
 import global_it from "./translations/it/global.json";
-import './index.css'
+import './index.scss'
 // npm i i18next react-i18next
 
 const storedLanguage = sessionStorage.getItem("selectedLanguage") || "es";
