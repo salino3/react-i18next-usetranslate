@@ -1,5 +1,6 @@
 
-import { Header } from './components/header';
+import { Header } from './components/header/header';
+import { AppRouter } from './router';
 import './App.css'
 
 function App() {
@@ -7,10 +8,7 @@ function App() {
   return (
     <div className="App"> 
       <Header />
-      <p>
-        Hola, 
-        Edit <code>src/App.tsx</code> and save to test HMR
-      </p>
+      <AppRouter />
     </div>
   );
 }

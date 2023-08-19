@@ -1,5 +1,6 @@
 import React from 'react';
 import { useTranslation } from "react-i18next";
+import './header.styles.scss';
 
 export const Header: React.FC = () => {
 
