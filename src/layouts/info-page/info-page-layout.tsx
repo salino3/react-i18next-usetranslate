@@ -1,7 +1,10 @@
 import React from 'react';
+import { InfoPage } from '@/pages';
 
 export const InfoPageLayout: React.FC = () => {
   return (
-    <div>info-page-layout</div>
+    <main>
+      <InfoPage />
+    </main>
   )
 }
