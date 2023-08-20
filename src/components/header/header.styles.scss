@@ -2,8 +2,8 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  border: solid 2px;
   padding-top: 12px;
+  padding: 5px 5px 0px;
 
   & > * {
     width: 100%;

@@ -1,12 +1,9 @@
-import { Header } from './components';
 import { AppRouter } from './router';
-
 
 function App() {
 
   return (
     <>
-     <Header /> 
      <AppRouter />
     </>
   );
