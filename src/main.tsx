@@ -9,6 +9,7 @@ import global_en from "./translations/en/global.json";
 import global_it from "./translations/it/global.json";
 import './index.scss'
 // npm i i18next react-i18next
+// $ npm i react-switch
 
 const storedLanguage = sessionStorage.getItem("selectedLanguage") || "es";
 
