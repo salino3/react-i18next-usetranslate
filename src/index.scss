@@ -2,3 +2,28 @@ body {
   margin: 0;
   padding: 0;
 }
+
+#light {
+  background-color: #f3ebf6;
+
+    header {
+      background-color: #8eed7d;
+  }
+
+  .switch {
+  color: darkblue;
+ }
+}
+
+#dark {
+  background-color: #46045e;
+
+  header {
+      background-color: #7d3398;
+  }
+
+  .switch {
+  color: gray;
+ }
+}
+

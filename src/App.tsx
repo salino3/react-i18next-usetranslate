@@ -1,13 +1,14 @@
-import { Header } from './components/header/header';
+import { Header } from './components';
 import { AppRouter } from './router';
+
 
 function App() {
 
   return (
-    <div> 
-      <Header />
-      <AppRouter />
-    </div>
+    <>
+     <Header /> 
+     <AppRouter />
+    </>
   );
 }
 

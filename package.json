@@ -1,5 +1,5 @@
 {
-  "homepage":"https://salino3.github.io/react-i18next-usetranslate",
+  "homepage": "https://salino3.github.io/react-i18next-usetranslate",
   "name": "react-i18next-usetranslate",
   "private": true,
   "version": "0.0.0",
@@ -15,7 +15,8 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-i18next": "^13.1.2",
-    "react-router-dom": "^6.15.0"
+    "react-router-dom": "^6.15.0",
+    "react-switch": "^7.0.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.27",
