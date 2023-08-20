@@ -1,8 +1,7 @@
 import React from 'react';
 import ReactSwitch from "react-switch";
-import { GlobalContext } from "@/core/global-context";
+import { GlobalContext, MyState } from "@/core";
 import './switcher.styles.scss';
-import { MyState } from '@/core/interface';
 
 
 export const Switcher: React.FC = () => {

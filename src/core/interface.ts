@@ -16,3 +16,8 @@ export interface MyState {
   dispatch: React.Dispatch<All_Actions>;
   toggleTheme: () => void;
 };
+
+//
+export const initialState: State = {
+    theme: "light"
+};

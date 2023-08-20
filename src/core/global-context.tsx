@@ -1,4 +1,4 @@
 import React from "react";
-import { MyState } from "./interface";
+import { MyState } from ".";
 
 export const GlobalContext = React.createContext<MyState>({} as MyState);

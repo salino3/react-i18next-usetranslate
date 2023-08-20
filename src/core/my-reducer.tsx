@@ -1,4 +1,4 @@
-import { All_Actions, State } from "./interface";
+import { All_Actions, State } from ".";
 
 export const MyReducer = (state: State, action: All_Actions) => {
   switch (action.type) {
