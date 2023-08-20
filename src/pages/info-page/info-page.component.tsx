@@ -12,10 +12,17 @@ export const InfoPage: React.FC = () => {
       return (
         <div className="root">
           <Switcher />
-          <h1 className='title'>{t("info.title")}</h1>
-          <Link to={SwitchRoutes.root} className="linkPage">
-            {t("info.link_info_page")}
-          </Link>
+          <div className="boxTitle">
+            <h1>{t("info.title")}</h1>
+            <Link to={SwitchRoutes.root} className="linkPage">
+              {t("info.link_info_page")}
+            </Link>
+          </div>
+          <br />
+          <hr />
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto numquam assumenda 
+            consequuntur facilis ex quia explicabo ipsam recusandae! Inventore molestias dignissimos facilis
+             non saepe accusamus itaque exercitationem deleniti mollitia maxime.</p>
         </div>
       );
 }
