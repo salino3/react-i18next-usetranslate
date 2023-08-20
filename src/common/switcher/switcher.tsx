@@ -1,15 +1,17 @@
 import React from 'react';
 import ReactSwitch from "react-switch";
-import { ThemeContext } from "@/App";
+import { GlobalContext } from "@/core/global-context";
 import './switcher.styles.scss';
+import { MyState } from '@/core/interface';
 
 
 export const Switcher: React.FC = () => {
 
-    const { theme, toggleTheme } = React.useContext(ThemeContext);
+    const { state, toggleTheme } = React.useContext<MyState>(GlobalContext);
+    const { theme } = state;
 
   return (
-    <div className="switch">
+    <section className="switch">
       <label htmlFor="switcher">
         {theme === "light" ? "Light Mode" : "Dark mode"}
       </label>
@@ -18,6 +20,6 @@ export const Switcher: React.FC = () => {
         onChange={toggleTheme}
         checked={theme === "dark"}
       />
-    </div>
+    </section>
   );
 }
