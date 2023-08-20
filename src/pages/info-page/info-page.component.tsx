@@ -10,10 +10,12 @@ export const InfoPage: React.FC = () => {
       const [t, i18n] = useTranslation("global");
 
       return (
-        <div className='root'>
+        <div className="root">
           <Switcher />
           <h1>{t("info.title")}</h1>
-          <Link to={SwitchRoutes.root}>{t("info.link_info_page")}</Link>
+          <Link to={SwitchRoutes.root} className="linkPage">
+            {t("info.link_info_page")}
+          </Link>
         </div>
       );
 }

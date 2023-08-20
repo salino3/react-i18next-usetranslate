@@ -6,24 +6,42 @@ body {
 #light {
   background-color: #f3ebf6;
 
-    header {
-      background-color: #8eed7d;
+  header {
+    background-color: #8eed7d;
   }
 
   .switch {
-  color: darkblue;
- }
+    color: darkblue;
+  }
 }
 
 #dark {
   background-color: #46045e;
+  color: gray;
+
+     .linkPage {
+      font-size: 24px;
+      background-color: gray;
+      padding: 0px 5px 2px;
+    }
+
+    a {
+      color: darkblue;
+    }
+
+    a:hover {
+      color: darkred;
+    }
+
+    a:active {
+      color: blue;
+    }
 
   header {
-      background-color: #7d3398;
+    background-color: #7d3398;
+    button {
+      background-color: #46045e;
+      color: gray;
+    }
   }
-
-  .switch {
-  color: gray;
- }
 }
-

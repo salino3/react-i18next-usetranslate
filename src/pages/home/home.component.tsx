@@ -14,7 +14,7 @@ export const Home: React.FC = () => {
   <Switcher />
       <div className="title">
         <h1>{t("home.title")}</h1>
-        <Link to={SwitchRoutes.info_page}>{t("home.link_info_page")}</Link>
+        <Link to={SwitchRoutes.info_page} className="linkPage">{t("home.link_info_page")}</Link>
       </div>
       <br />
       <hr />
