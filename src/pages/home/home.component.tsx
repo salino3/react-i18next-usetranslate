@@ -12,7 +12,7 @@ export const Home: React.FC = () => {
   return (
     <div className="root">
   <Switcher />
-      <div className="title">
+      <div className="boxTitle">
         <h1>{t("home.title")}</h1>
         <Link to={SwitchRoutes.info_page} className="linkPage">{t("home.link_info_page")}</Link>
       </div>
